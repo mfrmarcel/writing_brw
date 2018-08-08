@@ -1,0 +1,17 @@
+---
+title: "Introduction"
+author: 
+- "Matt Barreto^[University of California-Los Angeles]"
+- "Marcel Roman^[University of California-Los Angeles]"
+- "Hannah Walker^[Rutgers University]"
+date: "8/7/2018"
+output: pdf_document
+abstract: |
+  Placeholder Abstract
+
+---
+
+\pagebreak
+
+
+# Introduction 
