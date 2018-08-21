@@ -1,17 +1,20 @@
 ---
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: ~/Dropbox/barreto_roman_walker/analysis_BRW/paper_writing/tex_template_rmd.tex
 title: "Introduction"
 author: 
-- "Matt Barreto^[University of California-Los Angeles]"
-- "Marcel Roman^[University of California-Los Angeles]"
-- "Hannah Walker^[Rutgers University]"
-date: "8/7/2018"
-output: pdf_document
-abstract: |
-  Placeholder Abstract
-
+  - name: Matt Barreto
+    affiliation: University of California-Los Angeles 
+date: "`r format(Sys.time(), '%m/%d/%Y')`"
+abstract: This is an introduction to the WPSA/MPSA paper we are presenting on the effects of contact with imimgration enforcement on political participation and policy attitudes. 
+keywords: "Immigration, Law Enforcement, Political Participation, Policy Feedback"
 ---
 
 \pagebreak
 
-
-# Introduction 
+#Introduction 
