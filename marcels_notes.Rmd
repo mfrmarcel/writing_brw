@@ -1,0 +1,232 @@
+---
+title: "marcels_notes"
+author: "Marcel Roman"
+date: "8/25/2018"
+output: pdf_document
+---
+
+# Outline 
+
+Theory: 
+
+  * Proximate contact mobilizes non-traditional political behavior, but not traditional political behavior. 
+  
+  * Policy feedback with respect to public opinion. Exposure to immigration enforcement has effects on how the public evaluates salient immigration policies.
+  
+  * Heterogeneity by race --- strongest effects amongst Latinx, which makes sense given that they're the ones that are most likely to be targeted by immigration policy. 
+
+Results: Main Takeaways  
+  
+  * All races aggregated
+    
+    + Any kind of proximal contact with immigraiton enforcement increases perceptions of injustice by .61 on a 9 point scale, a 12\% increase relative to the average level of perceptions of injustice across the sample (holding personal contact)
+    
+    + Both Proximal contact and personal contact have neglible effects on self-reported intention to vote for Congressional Races in the 2018 midterm. 
+    
+    + Proximal contact has *large* effects on whether or not a respondent has taken part in any political protests, marches, or demonstrations in the past year. In fact, the probability of protest increase by .18 for the entire sample. 
+    
+    + Perceptions of injustice correlated with support for the DREAM act, but not proximal contact. 
+    
+    + Perceptions of injustice correlated with support for CIR, and also proximal contact. 
+    
+    + Proximal contact is associated with higher levels of support for abolishing ICE --- quite large effects, and same for the perceptions of injustice index. 
+    
+    + The index --- looks like proximal contact with positively associated with support for all of the immigration items writ large, same thing as the perception index. 
+    
+  * Latinx Models 
+    
+    + Proximal contact increases perceptions of injustice 
+    
+    + Proximal contact is positively correlated with the probability of protest, but not the unfairness scale. 
+    
+    + Proximate contact is correlated with support for DREAM act, and so is the unfairness scale. Same thing for CIR. Unfairness scale = positively correlated with opposition to the wall
+    
+    + Proximate contact is positively correlated with support for abolishing ICE, same thing with the unfairness scale. 
+    
+    + Proximate contact is positively corrleated with progressive immigration policy index, same thing with the unfairness index.
+    
+  * AAPI Models
+    
+    + No effects for proximal contact WRT perceptions of injustice
+     
+    + No effects --- pr(vote)
+    
+    + Proximate contact increases proability of protest, but not the unfairness scale. 
+    
+    + Proximate contact increases support for Dream act, CIR, but not abolishing ICE. Unfairness scale only effects abolishing ICE. Immigration policy index is only the unfairness scale. 
+    
+  * Black Models
+  
+    + No effects for proximal contact 
+    
+    + Efx for unfairness scale for pr(vote) 
+    
+    + Unfairness scale and proximate contact realted to probability of protest. 
+    
+    + Unfairness scale positively correlated with the DREAM act.
+    
+    + Unfairness scale is positively correlated with progressive support for CIR. 
+    
+    + Unfairness scale is positively correlated with not supporting the wall 
+    
+    + Unfairness scale positivley correlated with abolishign ICE. 
+    
+    + Only unfairness scale matters for immigration polciy index. 
+    
+    
+  * Native Models
+  
+    + Proximal contact is correlated with perceptions of injustice
+    
+    + Proximal contact is correalted with probability of protest
+    
+    + Sense of injustice effects policy attitudes, but not proximal contact. 
+    
+  * White Models
+  
+    + Proximal contact is positively correlated with perceptions of injustice, but not as strongly as for Latinx and Natives. 
+
+# Notes
+
+## Mixed Status Families and WIC uptake by Edward Vargas and Maureen Pirog
+
+- Looks at efx of enforcement on WIC uptake amongst mixed-status families 
+- Use Special Agent in Charge Districts to determine levels of enforcement and the number of deportations 
+- Risk of deportation = associated with WIC uptake. Risk of deportation = negatively associated with WIC uptake. 
+
+## Immigration Enforcement and Mixed-Status Families by Edward Vargas 
+
+- The same paper above, different outcome. Effects of deportations on whehter or not the mother of the child is using the medicaid program. 
+
+
+## Inside the refridgerator by Tara Watson 
+
+- Primary analysis based on a low-SES sample, limited to children below 200\% of the poverty line whose mothers lack a college degree. 
+
+- Income may be endogenous to enforcement. 
+
+- Underreporting behavior may be responsive to enforcement. 
+
+- Less use of Medicaid if there are higher levels of enforcement
+
+- Worse parent-reported health fo the child if there is more immigraiton enforcement. 
+
+## Perceptions of Threat, Demographic Diversity, and the Framing of Illegality by Chris Zepeda-Millan 
+
+- 2006 protest wave in NY --- categories of immigrant and ilelgal immigrant = socially constructed
+
+- Certain immigrant groups didn't turn out to protest not only because they lacked sizable numbers in the city but because of their previous experiencesi n their countries of origin and in the US. 
+
+- Mexicans and Dominicans accounted fo ra larger portion of NY protestors because larger percentages of their populations believed they had more to gain and lose from the proposed legislations. 
+
+- Its weird that Mexicans turned out to protest in NY given that they're notoriously underorganized.  
+
+- NY arrived late to the series of national demonstrations and fialed in its first few attempts to mass-mobilize its foreign born residents
+
+- Many immigrants felt like the debate that was going on at the time primarily affected Mexicans, not their own group. A lot of the policy problems that are salient or relevant to Latinos or Mexicans were not relevant to many of the Asian immigrant communities. HR 4437 was very much perceived as a "Latino" thing. 
+
+- NY = less homogenous than other cities who protested. Organizers had difficulty mobilizing across multiple "borders". Mexicans usually make up a large majority of foreign born populatiosn in the other cities besides new york that participated. Can't just have one blast announcement for everyone, like you could with spanish-language media. Have to do outreach in multiple communities in multiple languages. 
+
+## When threat mobilizes --- by Ariel White 
+
+- Pantoja, Ramirez, Segura --- Latino immigrants who naturalized in a state context of threat were more likely to vote. 
+
+- Ramakrishnan --- state contexts of threat are associated with higher selfreported turnout. 
+
+- Efren Perez --- elite rhetoric threatens and mobilizes Latinx voters. 
+
+
+## Political Effects of having undocumented parents --- Zepeda Milan, Jones Correa 
+
+- Offspring of undocumented are more likely to protest on immigration issues. 
+
+- Research seems to only focus on Latinos, and specifically, the children of undocumented parents. 
+
+- Movements can arise from a disruption of norms and routines (Snow et al. 1998) argue that actual or threatened intrusions into culturally defined zones of privacy such as the family can inspire people to take mass action. 
+
+- Parents of US born citizens are quite integrated into american society, so that might reduce the possibility of a chilling effect amongst the children of undocumented parents, especially as undocumented people are having more difficulties becoming permanent residents or acquiring citizenship after IRCA. 
+
+- Identify potential source of bias --- overreporting of protest activity, given that they know someone who is undocumented and therefore may be attuned to social issues and potential expectations over political activity --- however, it is unlikely that this is the case given that the qeustion is asked in isolation.....??????
+
+
+## Death at the Border: Efficacy and Unintended Consequences of US Immigration Control Policy
+
+- Mobilization via restrictions on entry --- there are still people taht are going to try to come back through the border by redirecting the flow of migration. Consistent with survey experiment evidence on this by Tom Wong.
+
+
+## Immigration Enforcement and the Chilling Effect on Latino Medicaid Enrollment  by Pedraza and Zhu 
+
+- Places where there is secure communities enforcement = less likely to participate in medicaid. 
+
+
+## All politics is local? County sheriffs and localized policies of immigration enforcement
+
+- sheriff's ideology and personal characteristics, as well as the partisanship of the county
+
+- Sheriffs in more democratic counties = less likely to ask bout immigration status 
+
+- Sheriffs with worse immigration attitudes are more likely to ask about immigration status. 
+
+
+## Local-Level Immigration Enforcement and Food Insecurity Risk among Hispanic Immigrant Families with Children: National-Level Evidence by Stephanie Potochnick 
+
+- Influence of 287(g) on food insecurity pre-post policy accounting for metro-area and year fixed-effects. 287(g) is assocaited with a 10\% increase in the food insecurity risk of Mexican non-citizen households with children, the group most vulnerable to 287(g). 
+
+## Immigrant Enforcement and Political Participation by Catalina Amuedo-Dorantes and Mary Lopez
+
+- Restrict analysis to Latinx noncitizen individuals who ahvent completed high school and have lived in the US for 5 or more years. taht ensures that the low skilled migrant is not legally in the US on a nonimmigrant visa.
+
+- Enforcement index --- data on enactment of state-level employ verification measures, and data on OIL are gathered from the NCSL website. 
+- Data on implementation of 287(g) agreements are collected from the ICE 287(g) fact sheet website, konstandini 2014, and the ICE's Activated jurisdictions document, respectively. 
+
+- Effect of intensified immigration enforement is primarily the result of polcie based measures, which are more likely to instill fear among fmailies with unauthorized immigrants trying to evade apprehension and deportation. A 1 SD increase in police-based enforcement lowers the propensity of registering to vote among eligible US citizens in mixed status HHs by 2.7 percentage points. 
+
+- Reduces registration, but not voting amongst those who are registered to vote. 
+
+- Enforcement strengthens the propensity to volunteer in the community, including in immigrant, political, and advocacy groups. 
+
+
+## Reexamining the "politics of in between" --- Barreto and Munoz 
+
+- National sample of Mexican Americans --- immigrants and noncitizens --- Mexican american immigrants are politically active --- foreign born are not less to be active than native born respondents and among foreign born, non citizens = just as likely to participate as naturalized citizens. 
+
+- Survey was administered by the Washington Post. COnducted by telephone between June and August 1999 --- focuses primary on people of Mexican ancestry. 
+
+- Previous research ignores the noncitizen --- they find participation outside of voter activity, a key arena for noncitizen participation --- working for a political campaign, attending a public meeting or rally, and donating money to a political candidate or organization. Immigrants = just as likely to participate as native born Mexican Americans and among immigrants, non citizens are not less likely to take part than naturalized citizens. 
+
+## Are Naturalized voters driving the california latino electorate? By Barreto, Ramirez and Woods
+
+- IRCA naturalization didn't spur an increase in Latino voting  in the 1990s. Instead, demographic and mobilization variables explain why the Latino vote grew between 1996 and 2000. 
+
+- 1993, first cohort of immigrants granted legal permanent residency under IRCA became eligible for naturalization. 
+
+- Growth in the Latino electorate = effort to mobilize voters by Latino organizations targeting Latinos. NALEO = instrumental in the efforts of Latinos to naturalize by assisting them with naturalization petitions. 
+
+- Latin voters = often persuaded when the mobilization is done by other latinos. 
+
+- FY 1993, surge in naturalizations in 1993 over 1992, but only 881 wer IRCA immigrants. IRCA residents only accounted for 2.5\% of immigrants who naturalized in FY 1994. The proportion of yearly naturalizations accounted for by IRCA immigrants did grow in 1995 and 1996, and peaked in 1997 when 23\% of new natrualizations were IRCA related.  IRCA never accuonted for more than 23\% of naturalizations in any given year in the 1990s. 
+
+- Look at regisration and turnout numbers at zip code level --- and relationship with the number of IRCA petitions. 
+
+
+## Targeted: The Mobilizing Effects of Perceptions of Unfair Policing Practices by Hannah Walker 
+
+- Contact may mobilize via perceptions of unfair policing 
+
+- Perceptions of injustice are related to linked fate, feelings of discrimination, and group threat. 
+
+- Important because it helps to generate solidarity with others who feel discriminated against, which is key to collective action. 
+- Regress sense of injustice on proximal contact 
+
+  * Investigate differences among racial subgroups --- group nonwhites and whites because there aren't enough black people and latinos in the sample. 
+  
+- Perceptions of injustice related to proximal contact only amongst non-whites in the NCPS 
+
+- Mediation analysis 
+
+- Looks like efx = higher conditional on perceptions of injustice
+
+- Perceptions of injustice have a mediating effect, with respect to contact, but only matters amongst non-whites. 
+
+
+*****

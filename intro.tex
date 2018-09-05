@@ -1,100 +1,313 @@
-\documentclass[]{article}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\documentclass[10pt,]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\newcommand*{\authorfont}{\fontfamily{phv}\selectfont}
+\usepackage[]{mathpazo}
+
+
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
-\fi
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\usepackage[margin=1in]{geometry}
-\usepackage{hyperref}
-\hypersetup{unicode=true,
-            pdftitle={Introduction},
-            pdfkeywords={Immigration, Law Enforcement, Political Participation, Policy Feedback},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{natbib}
-\bibliographystyle{plainnat}
-\usepackage{graphicx,grffile}
+
+
+
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+
+\renewenvironment{abstract}
+ {{%
+    \setlength{\leftmargin}{0mm}
+    \setlength{\rightmargin}{\leftmargin}%
+  }%
+  \relax}
+ {\endlist}
+
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\def\@maketitle{%
+  \newpage
+%  \null
+%  \vskip 2em%
+%  \begin{center}%
+  \let \footnote \thanks
+    {\fontsize{18}{20}\selectfont\raggedright  \setlength{\parindent}{0pt} \@title \par}%
+}
+%\fi
 \makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+
 \setcounter{secnumdepth}{0}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+
+
+
+\title{Introduction  }
+
+
+
+\author{\Large Matt Barreto\vspace{0.05in} \newline\normalsize\emph{University of California-Los Angeles}   \and \Large Marcel Roman\vspace{0.05in} \newline\normalsize\emph{University of California-Los Angeles}   \and \Large Hannah Walker\vspace{0.05in} \newline\normalsize\emph{Rutgers University}  }
+
+
+\date{}
+
+\usepackage{titlesec}
+
+\titleformat*{\section}{\normalsize\bfseries}
+\titleformat*{\subsection}{\normalsize\itshape}
+\titleformat*{\subsubsection}{\normalsize\itshape}
+\titleformat*{\paragraph}{\normalsize\itshape}
+\titleformat*{\subparagraph}{\normalsize\itshape}
+
+
+\usepackage{natbib}
+\bibliographystyle{apsr}
+\usepackage[strings]{underscore} % protect underscores in most circumstances
+
+
+
+\newtheorem{hypothesis}{Hypothesis}
+\usepackage{setspace}
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{%
+\ifxetex
+  \PassOptionsToPackage{hyphens}{url}\usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \PassOptionsToPackage{hyphens}{url}\usepackage[unicode=true]{hyperref}
 \fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-%%% Use protect on footnotes to avoid problems with footnotes in titles
-\let\rmarkdownfootnote\footnote%
-\def\footnote{\protect\rmarkdownfootnote}
-
-%%% Change title format to be more compact
-\usepackage{titling}
-
-% Create subtitle command for use in maketitle
-\newcommand{\subtitle}[1]{
-  \posttitle{
-    \begin{center}\large#1\end{center}
-    }
 }
 
-\setlength{\droptitle}{-2em}
-  \title{Introduction}
-  \pretitle{\vspace{\droptitle}\centering\huge}
-  \posttitle{\par}
-  \author{true}
-  \preauthor{\centering\large\emph}
-  \postauthor{\par}
-  \predate{\centering\large\emph}
-  \postdate{\par}
-  \date{08/20/2018}
+\@ifpackageloaded{color}{
+    \PassOptionsToPackage{usenames,dvipsnames}{color}
+}{%
+    \usepackage[usenames,dvipsnames]{color}
+}
+\makeatother
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Matt Barreto (University of California-Los Angeles) and Marcel Roman (University of California-Los Angeles) and Hannah Walker (Rutgers University)},
+             pdfkeywords = {Immigration, Law Enforcement, Political Participation, Policy Feedback},  
+            pdftitle={Introduction},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
 
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+% add tightlist ----------
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \begin{document}
-\maketitle
+	
+% \pagenumbering{arabic}% resets `page` counter to 1 
+%
+% \maketitle
+
+{% \usefont{T1}{pnc}{m}{n}
+\setlength{\parindent}{0pt}
+\thispagestyle{plain}
+{\fontsize{18}{20}\selectfont\raggedright 
+\maketitle  % title \par  
+
+}
+
+{
+   \vskip 13.5pt\relax \normalsize\fontsize{11}{12} 
+\textbf{\authorfont Matt Barreto} \hskip 15pt \emph{\small University of California-Los Angeles}   \par \textbf{\authorfont Marcel Roman} \hskip 15pt \emph{\small University of California-Los Angeles}   \par \textbf{\authorfont Hannah Walker} \hskip 15pt \emph{\small Rutgers University}   
+
+}
+
+}
+
+
+
+
+
+
+
+
 \begin{abstract}
-This is an introduction to the WPSA/MPSA paper we are presenting on the
+
+    \hbox{\vrule height .2pt width 39.14pc}
+
+    \vskip 8.5pt % \small 
+
+\noindent This is an introduction to the WPSA/MPSA paper we are presenting on the
 effects of contact with imimgration enforcement on political
 participation and policy attitudes.
+
+
+\vskip 8.5pt \noindent \emph{Keywords}: Immigration, Law Enforcement, Political Participation, Policy Feedback \par
+
+    \hbox{\vrule height .2pt width 39.14pc}
+
+
+
 \end{abstract}
+
+
+\vskip 6.5pt
+
+
+\noindent \singlespacing \pagebreak
+
+\doublespacing
 
 \pagebreak
 
+\section{Introduction}\label{introduction}
 
+What are the effects of immigration enforcement on political
+participation and evaluations of immigration policy prescriptions? The
+extant literature is mixed. Some research suggests that immigration
+enforcement can have a mobilizing effect on various forms of electoral
+and non-electoral political behavior
+\citep{corneliusdeath2001, pantojacitizens2001, whitewhen2016, zepeda-millanlatino2017}.
+Other research indicates that immigration enforcement demobilizes
+political participation and depresses engagement with the state,
+particularly amongst non-citizens and Latinx
+\citep{watsoninside2014, pedrazaimmigration2015, vargasimmigration2015, vargasmixed-status2016, potochnicklocal-level2017, amuedo-dorantesinterior2017}.
+However, despite work on the link between proximate exposure to
+non-immigration related law enforcement and political participation
+\citep{leeconsequences2014, walkerextending2014, walkerfor2017, walkertargeted:nodate},\footnote{Proximate
+  contact or exposure meaning that an individual knows family members
+  and/or friends that are or have been exposed to law enforcement. There
+  is some research on the effects of knowing someone undocumented on
+  political participation \citep{streetpolitical2017}, but this paper is
+  distinct in that a) it also evaluates the effects of proximate contact
+  with immigration authorities, not just knowing someone undocumented
+  and b) it analyzes not only Latinx populations, but the effects of
+  proximate contact on other racial/ethnic groups.} left unanswered in
+the literature is an investigation of the effects of proximate contact
+with immmigration enforcement on both various types of political
+participation \emph{and} attitudes regarding immigration policy
+prescriptions.\footnote{Although there is a rich literature on the
+  effects of contact with the criminal justice system on public trust
+  and perceptions of the criminal justice system writ large
+  \citep{tylertrust2002, weitzerincidents2002, engelcitizens2005, peffleyjustice2010, lermanarresting2014}.}
+Moreover, there is little attention paid to the mechanisms that motivate
+individual behavior in response to contact with immigration
+enforcement.\footnote{For an exception, see \citet{whitewhen2016}, who
+  leverages CCES data and finds that the reason Latinx are mobilized
+  after the implementation of anti-immigrant policy has more to do with
+  mobilization by parties instead of direct responses to the policy
+  threat.}
+
+This paper fills in the gap by leveraging a survey deployed in 2018 with
+representative samples of several different racial and ethnic groups to
+investigate whether or not proximate exposure to immigration enforcement
+depresses or increases various forms of political participation and if
+these relationships vary by race and ethnicity. Since the survey
+instrument included several questions regarding evaluations of
+immigration policy prescriptions, this paper also provides an assessment
+of potential policy feedback effects from immigration enforcement on
+public opinion over immigration policy. In addition, in order to reveal
+potential individual-level mechanisms that may be motivating political
+behavior in response to proximate contact, this paper investigates both
+whether or not proximate exposure influences a sense of injustice and
+how a sense of injustice affects both political participation and
+immigration policy preferences. Analyzing the link between perceptions
+of injustice and proximate contact is important since previous research
+finds that perceptions of injustice and discrimination with respect to
+the criminal justice system influence how family members and friends
+respond to proximate exposure \citep{walkertargeted:nodate}.
+
+The results indicate that, across all racial categories, proximate
+contact with immigration enforcement mobilizes non-traditional forms of
+political participation such as protesting or attending demonstrations,
+but does not have an effect on traditional forms of participation such
+as voting. This paper identifies a potential mechanism in showing that
+non-traditional mobilization may be driven by a perception of an unjust
+legal and immigration system. Moreover, this paper finds that proximate
+contact with immigration enforcement may generate changes in how the
+public perceives immigration policy prescriptions. Proximate contact is
+associated with a progressive shift in evaluating immigration policy
+proposals such as comprehensive immigration reform and even abolishing
+ICE.
+
+Additionally, this paper finds some racial heterogeneity in the effects
+of proximate contact with immigration enforcement. Interestingly, there
+are no heterogenous effects by racial or ethnic group category with
+respect to proximate contact with immigration authorities and political
+protest, which contradicts previous work on the racially heterogenous
+effects of exposure to the criminal justice system
+\citep{walkerextending2014, walkertargeted:nodate}. All groups are
+equally mobilized by proximate exposure to immigration
+enforcement.\footnote{Albeit the point estimates are larger for
+  non-white groups, with the upper bounds for non-white groups exceeding
+  the upper bounds for whites (with the exception of AAPI).} However,
+consistent with theories in the extant literature that suggest that
+targeted populations are more likely to respond politically in the face
+of policy threat than non-targeted populations
+\citep{pantojafear2003, kangelectoral2017, laniyonupolitical2018}, this
+paper finds that Latinx are more likely to shift in a progressive
+direction with respect to evaluations of immigration policy
+prescriptions than other racial group categories.
+
+This paper makes several contributions. First, given the nature of the
+sample, there is sufficient statistical power for a cross-racial/ethnic
+group analysis.\footnote{With 400 respondents for the 5 relevant
+  racial/ethnic group categories: white, black, Latinx, Native American,
+  and AAPI.} Therefore, the sample provides a unique opportunity to
+study the effects of immigration enforcement on groups that are not only
+politically underrepresented, but underrepresented when it comes to
+research on the effects of enforcement, such as Native Americans and
+Asians. Second, the research question moves beyond merely
+conceptualizing criminal justice through the policing of black American
+communities and individuals (e.g.~what some scholars would call the
+``black/white'' binary, although this understanding is somewhat
+problematic in the context of immigration policy given the existence of
+foreign-born black people and black immigrants). Understanding law
+enforcement through the lens of immigration policy is particularly
+important given that there are a disproportionate amount of resources
+devoted to immigration enforcement at the Federal level,\footnote{In
+  2012,
+  \href{https://www.theatlantic.com/magazine/archive/2018/09/trump-ice/565772/}{Congress
+  appropriated \$18 billion for immigration enforcement while it
+  appropriated \$14 billion for all the other major criminal law
+  enforcement agencies combined.}} it is an increasingly salient issue
+given the election of Donald Trump, and the U.S. is undergoing a
+demographic transformation in that the percentage of the foreign-born
+population is at its highest since 1910.\footnote{According to the
+  Migration Policy Institute,
+  \href{https://www.migrationpolicy.org/article/immigrants-us-states-fastest-growing-foreign-born-populations}{``The
+  foreign-born share of the U.S. population is at its highest level
+  since 1910, with the approximately 44 million immigrants living in the
+  United States representing 13.5 percent of the overall
+  population\ldots{}.With U.S. fertility rates at a historic low, the
+  Census Bureau projects that net international migration will be the
+  main driver behind U.S. population growth between 2027 and 2038.''}}
+Third, while there is some research to suggest that criminal justice
+policies affect how individuals judge the state, legal system, and
+criminal justice policy writ large, there is limited research on the
+effects of immigration enforcement on the evaluation of immigration
+policy prescriptions. This paper fills in the gap by employing a survey
+asking respondents to evaluate various proposals that may offer a
+solution to the immigration status of millions of people residing in the
+U.S. such as conditional residency for alien minors (the DREAM act),
+comprehensive immigration reform (CIR), and even abolishing ICE. Fourth,
+while there is some work on the de(mobilizing) effects of immigration
+enforcement, much of it is limited to analyzing electoral outcomes such
+as voting and registration
+\citep{whitewhen2016, amuedo-dorantesinterior2017}. Moreover, much of
+the work analyzing the determinants of protest activity related to
+anti-immigrant policies does not take into account prior contact with
+immigration enforcement officers \citep{zepeda-millanlatino2017}. This
+paper fills in this gap, both by analyzing non-electoral political
+activity as an outcome and accounting for proximate exposure to contact
+with immigration enforcement officials.
+\newpage
+\singlespacing 
+\renewcommand\refname{References}
+\bibliography{references.bib}
 \end{document}
